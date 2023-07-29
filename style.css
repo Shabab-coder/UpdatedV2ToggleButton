@@ -1,0 +1,87 @@
+body{
+    transition: background-color 0.5s;
+}
+.container{
+    display:flex;
+    height:70vh;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+.toggle-button{
+    width: 190px;
+    height:90px;
+    border-radius: 50px;
+    background-color: #b3abab;
+    transition: backgorund-color 5s;
+    /* background-color: rgb(179, 171, 171); */
+}
+
+.switch-off{
+    position: relative;
+    width:60px;
+    height:60px;
+    background-color: rgb(89, 85, 85);
+    border-radius:100%;
+    transform: translate(10px, 16px);
+    transition:background-color 0.5s,transform 0.25s, width 0.25s, height 0.25s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.switch-off:hover{
+    position: relative;
+    width:70px;
+    height:70px;
+    background-color: rgb(89, 85, 85);
+    border-radius:100%;
+    transform: translate(10px, 10px);
+    transition:width 0.25s, height 0.25s, transform 0.25s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.switch-on{
+    position: relative;
+    width:60px;
+    height:60px;
+    background-color: rgb(0, 0, 0);
+    border-radius:100%;
+    transform: translate(117px, 16px);
+    transition:background-color 0.5s, transform 0.25s, width 0.25s, height 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+.switch-on:hover{
+    position: relative;
+    width:70px;
+    height:70px;
+    border-radius:100%;
+    background-color: black;
+    transform: translate(108px, 10px);
+    transition:width 0.25s, height 0.25s, transform 0.25s, background-color;
+    transition-timing-function: ease-in-out;
+}
+.toggle-button-on{
+    width: 190px;
+    height:90px;
+    border-radius: 50px;
+    background-color: rgb(16, 105, 247);
+    transition: background-color 1s;
+    
+
+}
+
+.heading{
+    text-align: center;
+    font-size: 100px;
+    padding-top:50px;
+    color:black;
+    transition: color 1s;
+    height:100px;
+}
+
+.toggle-button-on:hover{
+    background-color:rgb(26, 12, 153);
+}
